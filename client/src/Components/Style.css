@@ -1,0 +1,223 @@
+/* *{
+    overflow-x: hidden;
+} */
+
+
+
+
+body{
+    padding: 0;
+    margin: 0;
+}
+#Nav{
+    background-color: #f34b4b;
+    width: 100%;
+    height: 100px;
+}
+#Title > h1{
+    color: #F9F5F6;
+    text-shadow: 1px 1px 5px black;
+} 
+
+#nav1{
+    display: inline;
+    position: relative;
+    left: 640px;
+    top: 10px;
+}
+
+.link{
+    padding-left: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.link:hover{
+    cursor: pointer;
+}
+
+#Title{
+    display: inline-block;
+    position: relative;
+    left: 60px;
+    top:20px ;
+}
+
+#signup{
+    background-color: whitesmoke;
+    color: #f34b4b;
+    border: none;
+    height: 33px;
+    width: 100px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    border-radius: 8px;
+    font-weight: bolder;
+}
+
+#signup:hover{
+    background-color: bisque;
+    color: black;
+    cursor: pointer;
+}
+
+#login{
+    background-color: whitesmoke;
+    color: #f34b4b;
+    border: none;
+    height: 33px;
+    width: 100px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    border-radius: 8px;
+    font-weight: bolder;
+}
+
+#login:hover{
+    background-color: bisque;
+    color: black;
+    cursor: pointer;
+}
+
+#loginpage{
+    width: 100%;
+    height: 660px;
+}
+
+#imgbg{
+    width: 100%;
+    height: 660px;
+}
+
+.log{
+    height: 450px;
+    width: 420px;
+    background-color: #CF0A0A;
+    position: relative;
+    bottom: 560px;
+    left: 480px;
+    border-radius: 10px;
+}
+
+#h1{
+    position: relative;
+    left:100px ;
+    top: 5px;
+    color: white;
+    text-shadow: 1px 1px 5px black;
+}
+#h1s{
+    position: relative;
+    left:80px ;
+    top: 5px;
+    color: white;
+    text-shadow: 1px 1px 5px black;
+}
+
+.inpname{
+    position: relative;
+    top: 35px;
+}
+
+#profimg{
+    height: 20px;
+}
+
+.btnsubmit{
+    position: relative;
+    top: 45px;
+    left: 120px;
+    text-shadow: 1px 1px 5px black;
+}
+#loginlink{
+    position: relative;
+    top: 90px;
+    text-decoration: none;
+    color: black;
+}
+
+#phoneimg{
+    height: 20px;
+    width: 20px;
+}
+
+#mailimg{
+    height: 20px;
+    width: 20px;
+}
+
+#locationimg{
+    height: 20px;
+    width: 20px;
+}
+
+#loginpage{
+    position: relative;
+    bottom: 8px;
+}
+
+
+
+
+
+
+
+
+@media all and (max-width:500px) {
+
+    #Nav{
+        display: none;
+    }
+
+    .log{
+        position: relative;
+        left: 10px;
+        height: 400px;
+        width: 370px;
+    }
+
+    #icon{
+        position:"relative";
+        left:"570px";
+    }
+
+    #contact{
+        position: relative;
+        right: 20px;
+    }
+
+    .details{
+        position: relative;
+        right: 100px;
+        bottom: 20px;
+    }
+
+    .udetails{
+        position: relative;
+        right: 100px;
+        top: 20px;
+    }
+    .c{
+        position: relative;
+        left: 70px;
+    }
+    #FP{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
+
+@media all and (min-width:500px) {
+    
+    .navM{
+        display: none;
+    }
+
+
+
+}
+
+
+
+
